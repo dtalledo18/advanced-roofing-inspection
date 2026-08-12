@@ -181,7 +181,7 @@ export default function Hero() {
                      (delante). ── */}
                 <div
                     className="absolute inset-0 bg-cover bg-bottom z-10 pointer-events-none"
-                    style={{ backgroundImage: "url('/hero-roof-foreground.png')" }}
+                    style={{ backgroundImage: "url('/hero/hero-roof-foreground.webp')" }}
                 />
 
                 {/* ── CAPA 4: SUBTÍTULO + CTA + CARRUSEL — DELANTE de la

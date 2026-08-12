@@ -170,7 +170,7 @@ export default function Contact() {
             {/* ── ROOFER PNG SIN FONDO (FULL HEIGHT Y ALINEADO A LA DERECHA) ── */}
             <div className="absolute right-0 bottom-0 h-full w-full lg:w-1/2 pointer-events-none z-10 flex justify-end items-end">
                 <img
-                    src="/roofer-3.png" // Asegúrate de colocar tu imagen recortada aquí
+                    src="/contact/roofer-3.webp" // Asegúrate de colocar tu imagen recortada aquí
                     alt="Roofing Inspector"
                     className="h-full w-auto max-w-full object-contain object-right-bottom drop-shadow-2xl"
                 />

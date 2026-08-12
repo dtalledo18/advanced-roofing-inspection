@@ -25,7 +25,7 @@ const reviewsData: Review[] = [
         title: 'Knowledgeable and responsive.',
         body: '"I would recommend him and surely use him and his team in future"',
         author: '- R Ahmed',
-        avatar: '/pins/project-1.png',
+        avatar: '/pins/project-1.webp',
         pos: { top: '45%', left: '16%' },
     },
     {
@@ -34,7 +34,7 @@ const reviewsData: Review[] = [
         title: 'Professional, prompt and great customer service.',
         body: '"Advanced replaced my roof a few years back. Would definitely recommend!"',
         author: '- Sue Vignovich',
-        avatar: '/pins/project-2.jpg',
+        avatar: '/pins/project-2.webp',
         pos: { top: '69%', left: '29%' },
     },
     {
@@ -43,7 +43,7 @@ const reviewsData: Review[] = [
         title: 'Very professional, friendly and honest.',
         body: '"Showed up on time, provided a fair estimate, and did an excellent job"',
         author: '- Joan McGregor',
-        avatar: '/pins/project-3.jpg',
+        avatar: '/pins/project-3.webp',
         pos: { top: '55%', left: '46%' },
     },
     {
@@ -52,7 +52,7 @@ const reviewsData: Review[] = [
         title: 'Professional, punctual, and communicated',
         body: '"We highly recommend this company for reliable and trustworthy roofing services"',
         author: '- Juna Chikovani',
-        avatar: '/pins/project-4.png',
+        avatar: '/pins/project-4.webp',
         pos: { top: '73%', left: '62%' },
     },
     {
@@ -61,19 +61,19 @@ const reviewsData: Review[] = [
         title: 'Great company, quality work.',
         body: '"They fought for a year to get my insurance approved. Peter and his crew truly go above and beyond"',
         author: '- Mahir Zegar',
-        avatar: '/pins/project-5.jpg',
+        avatar: '/pins/project-5.webp',
         pos: { top: '52%', left: '73%' },
     },
 ];
 
 const smallPinsData: MapPin[] = [
-    { id: 1, image: '/pins/project-6.jpg', pos: { top: '48%', left: '10%' } },
-    { id: 2, image: '/pins/project-7.png', pos: { top: '76%', left: '17%' } },
-    { id: 3, image: '/pins/project-8.jpg', pos: { top: '42%', left: '35%' } },
-    { id: 4, image: '/pins/project-9.png', pos: { top: '88%', left: '40%' } },
-    { id: 5, image: '/pins/project-1.png', pos: { top: '48%', left: '56%' } },
-    { id: 6, image: '/pins/project-2.jpg', pos: { top: '44%', left: '64%' } },
-    { id: 7, image: '/pins/project-3.jpg', pos: { top: '66%', left: '68%' } },
+    { id: 1, image: '/pins/project-6.webp', pos: { top: '48%', left: '10%' } },
+    { id: 2, image: '/pins/project-7.webp', pos: { top: '76%', left: '17%' } },
+    { id: 3, image: '/pins/project-8.webp', pos: { top: '42%', left: '35%' } },
+    { id: 4, image: '/pins/project-9.webp', pos: { top: '88%', left: '40%' } },
+    { id: 5, image: '/pins/project-1.webp', pos: { top: '48%', left: '56%' } },
+    { id: 6, image: '/pins/project-2.webp', pos: { top: '44%', left: '64%' } },
+    { id: 7, image: '/pins/project-3.webp', pos: { top: '66%', left: '68%' } },
 ];
 
 const statsData = [
@@ -116,7 +116,7 @@ export default function Reviews() {
                 {/* Imagen del mapa abarcando todo el fondo */}
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat mt-8 opacity-90"
-                    style={{ backgroundImage: "url('/map-3.png')" }}
+                    style={{ backgroundImage: "url('/map/map-3.webp')" }}
                 />
 
                 {/* GRADIENTE SUPERIOR PARA LEGUIBILIDAD DEL TEXTO */}
