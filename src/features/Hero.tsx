@@ -167,10 +167,10 @@ export default function Hero() {
                         transition={{ duration: 1, ease: [0.25, 1, 0.5, 1] }}
                         className="select-none text-left"
                     >
-                        <span className="block font-clash text-[#F3C200] font-bold text-7xl tracking-tight">
+                        <span className="block font-clash text-[#F3C200] font-bold text-7xl tracking-normal xl:tracking-wide">
                             Free Roof
                         </span>
-                        <h1 className="font-clash text-white font-bold text-[12rem] leading-none tracking-tight -mt-6">
+                        <h1 className="font-clash text-white font-bold text-[13rem] leading-none tracking-normal xl:tracking-wider 2xl:tracking-widest -mt-6">
                             Inspection
                         </h1>
                     </motion.div>
