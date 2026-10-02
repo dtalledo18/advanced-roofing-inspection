@@ -151,10 +151,10 @@ export default function Hero() {
                      z-10 de la foto del techo. */}
                 <div className="lg:hidden absolute inset-0 z-[5] flex flex-col items-center justify-start pt-[9vh] px-6 md:px-12 mt-30 max-w-md md:max-w-2xl mx-auto pointer-events-none">
                     <div className="text-center select-none">
-                        <span className="block font-clash text-[#F3C200] font-bold text-6xl md:text-7xl tracking-tight">
+                        <span className="block font-clash text-[#F3C200] font-bold text-6xl md:text-7xl tracking-wide">
                             Free Roof
                         </span>
-                        <h1 className="font-clash text-white font-bold text-7xl md:text-8xl leading-none tracking-tight mt-0">
+                        <h1 className="font-clash text-white font-bold text-7xl md:text-8xl leading-none tracking-wide mt-0">
                             Inspection
                         </h1>
                     </div>
